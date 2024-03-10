@@ -1,9 +1,3 @@
-<script lang="ts" setup>
-import { useMainStore } from '@/store'
-
-const mainStore = useMainStore()
-</script>
-
 <template>
   <div class="app-parent">
     <div id="modal-target" class="app-parent__modal-target" />
@@ -15,11 +9,7 @@ const mainStore = useMainStore()
 
     <div id="sign-in-area" class="app-parent__sign-in-area" />
 
-    <main v-if="mainStore.globalLoading" class="app-parent__spinner">
-      <img src="@/assets/puff.svg">
-    </main>
-
-    <main v-else class="app-parent__main">
+    <main class="app-parent__main">
       <router-view class="app-parent__router-view" />
     </main>
 

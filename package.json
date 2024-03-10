@@ -11,9 +11,6 @@
   },
   "dependencies": {
     "autoprefixer": "10.4.16",
-    "chart.js": "4.4.1",
-    "firebase": "10.7.1",
-    "pinia": "2.1.7",
     "postcss": "8.4.33",
     "sanitize.css": "13.0.0",
     "vue": "3.4.5",
