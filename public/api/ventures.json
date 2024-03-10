@@ -1,0 +1,51 @@
+[
+    {
+            "id": 1,
+            "name": "Innovatech Solutions",
+            "investmentStage": "Series A",
+            "description": "A tech startup focusing on innovative IoT solutions.",
+            "amountInvested": 500000
+    },
+    {
+            "id": 2,
+            "name": "GreenFuture Energies",
+            "investmentStage": "Seed",
+            "description": "Renewable energy startup with a focus on solar panel technology.",
+            "amountInvested": 200000
+    },
+    {
+            "id": 3,
+            "name": "MediQuick",
+            "investmentStage": "Series B",
+            "description": "Healthtech company developing rapid diagnostic tools.",
+            "amountInvested": 1000000
+    },
+    {
+            "id": 4,
+            "name": "FinSecure",
+            "investmentStage": "Series C",
+            "description": "Fintech startup offering secure digital banking solutions.",
+            "amountInvested": 2000000
+    },
+    {
+            "id": 5,
+            "name": "EduFuture",
+            "investmentStage": "Seed",
+            "description": "Edtech company making learning accessible globally through an online platform.",
+            "amountInvested": 150000
+    },
+    {
+            "id": 6,
+            "name": "TechSolutions",
+            "investmentStage": "Series A",
+            "description": "Software development company specializing in enterprise solutions.",
+            "amountInvested": 800000
+    },
+    {
+            "id": 7,
+            "name": "BioHealth",
+            "investmentStage": "Seed",
+            "description": "Biotech startup focused on developing innovative healthcare products.",
+            "amountInvested": 300000
+    }
+]

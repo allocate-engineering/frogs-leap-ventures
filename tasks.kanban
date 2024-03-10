@@ -1,0 +1,63 @@
+{
+  "lists": [
+    {
+      "id": "c84a6524-3abd-4f27-921c-0dfa926f7891",
+      "title": "Todo",
+      "cards": [
+        {
+          "id": "00c7d4a0-b20e-443d-8dd4-eaaa3be8d318",
+          "listId": "c84a6524-3abd-4f27-921c-0dfa926f7891",
+          "title": "Convert Data Utilities to Typescript",
+          "description": "### Background\nAt Frog's Leap Ventures, we're upgrading our tech stack to enhance our venture analysis capabilities. The first task is refactoring our JavaScript utilities to TypeScript for better code reliability and maintainability.\n\n### Objective\nTransform the provided JavaScript functions in `dataUtils.js` into TypeScript within a new file `dataUtils.ts`. This ensures type safety and leverages TypeScript's features such as generics, preparing us for future feature development.\n\n### Provided JavaScript Utilities (`src/utils/dataUtils.js`)\n\n### Tasks\n**Convert to TypeScript:** Create `dataUtils.ts` and convert the JavaScript functions to TypeScript, ensuring all parameters and return types are properly typed.\n\n**Implement Generics:** Refactor `filterArray` and `mapArray` to use generics, allowing them to handle arrays of any type with type safety.\n\n**Enhance `enhanceObject` Function:** Improve `enhanceObject` for type safety using TypeScript's generics and utility types. This function should add or modify properties on objects of any type, preserving the original type's information.\n\n**Documentation:** Add TypeScript doc comments to each function, detailing their purpose, parameters, and return type. Mention any TypeScript-specific features used.\n",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        },
+        {
+          "id": "0327fc49-bbcb-4d29-b63b-3b05cf5db1ca",
+          "listId": "c84a6524-3abd-4f27-921c-0dfa926f7891",
+          "title": "Fetch and Display Venture Data",
+          "description": "### Background\nIn our mission to become a leading venture firm, Frog's Leap Ventures is enhancing our digital platform to provide real-time insights into potential investments. An essential part of this upgrade involves fetching, processing, and displaying detailed information about ventures we're considering. This task focuses on integrating our venture data into the `VCDashboard.vue` component to make informed decisions swiftly.\n\n### Objective\nIntegrate functionality in the `VCDashboard.vue` component to fetch venture data from our API, process this data with TypeScript utility functions, and present the ventures in an easily digestible list. This implementation must be fully typed with TypeScript and utilize Vue 3's Composition API for reactivity and lifecycle management.\n\n### Tasks\n**Fetch Data:** Develop an asynchronous function to retrieve mock venture data from a specified JSON file or mock API endpoint using the fetch API. Use `/api/ventures.json` as the data URL for this task.\n\n**Type Safety:** Ensure the integrity of the fetched data by typing it appropriately. Leverage the `Venture` interface from `@/types/venture` to type the response data, maintaining strict type safety throughout the process.\n\n**Display Data:** Employ Vue 3's template syntax to articulate the list of ventures, showcasing key details such as the venture name, investment stage, and a brief description.\n",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        },
+        {
+          "id": "2b55b2d8-00d0-4499-b492-3bf3b977bd33",
+          "listId": "c84a6524-3abd-4f27-921c-0dfa926f7891",
+          "title": "Enhance Fetched Venture Data with Priority Flag",
+          "description": "### Background\nFrog's Leap Ventures aims to optimize our focus on potential investments by identifying high-priority ventures early in our review process. To support this goal, we're enhancing our digital dashboard to flag ventures that meet specific criteria indicating higher priority or potential.\n\n### Objective\nRefine the venture data displayed in the `VentureCapitalistDashboard.vue` component by integrating an `isHighPriority` property for each venture. This flag will help us quickly discern which ventures require immediate attention based on their investment stage and funding amount.\n\n### Tasks\n**Fetch Data:** Continue leveraging the asynchronous function to pull mock venture data, as previously established. The data can be fetched from `/api/ventures.json`.\n\n**Enhance Data with `isHighPriority` Property:**\n- Employ the `enhanceObject` function from `@/utils/dataUtils.ts` to append an `isHighPriority` boolean property to every venture in your dataset.\n- Define a venture as high priority if it is categorized under the \"Series A\" investment stage and has received funding of $500,000 or more.\n\n**Type Augmentation:**\n- If required, perform a local augmentation of the `Venture` interface within `VCDashboard.vue`, incorporating the `isHighPriority` property to ensure type safety.\n\n**Display the Priority Status:**\n- Update the dashboard's template to visually distinguish high-priority ventures. This could involve adding a distinct badge or altering the text color for ventures flagged as high priority, enhancing the dashboard's functionality and user experience.\n",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        },
+        {
+          "id": "2429b125-2546-4001-abef-06dfb9158dbf",
+          "listId": "c84a6524-3abd-4f27-921c-0dfa926f7891",
+          "title": "Implement Global appEnvironment Property for Environment Identification",
+          "description": "### Background\nAt Frog's Leap Ventures, enhancing our digital tools to adapt dynamically to different environments is crucial for both development and production efficiency. Recognizing the environment our Vue application operates in allows for tailored experiences and functionalities. We've taken the first step by including an environment property directly in our `index.html`. The next step is to fully integrate this capability into our application, making it type-safe and practically utilized across our project.\n\n### Objective\nFinalize the integration of a globally accessible method to identify the running environment of our Vue application. This enhancement will enable conditional rendering and execution of environment-specific logic throughout the application, improving our development workflow and user experience.\n\n### Tasks\n**Type Augmentation:**\n- Augment the `Window` interface to include a new property `appEnvironment` of type `string`. This will make the environment property type-safe and formally recognized across our TypeScript codebase.\n- Demonstrate the utility of the `appEnvironment` property by altering the `App.vue` header's background color based on the current environment. For instance:\n  - Use a blue background for the development environment.\n  - Use the current green background for the production environment.\n",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": "f7f5a233-9e45-4223-9f77-878f4d8f369b",
+      "title": "Doing",
+      "cards": []
+    },
+    {
+      "id": "c54e421d-3075-4b9e-9a8a-80f140c6e21b",
+      "title": "Done",
+      "cards": []
+    }
+  ],
+  "archive": {
+    "lists": [],
+    "cards": []
+  },
+  "settings": {
+    "labels": []
+  }
+}
