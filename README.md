@@ -1,6 +1,6 @@
 # Frog's Leap Ventures
 
-![frogs leap ventures logo](https://github.com/allocate-engineering/frogs-leap-ventures/blob/main/src/assets/logo.png?raw=true)
+<img src="https://github.com/allocate-engineering/frogs-leap-ventures/blob/main/src/assets/logo.png?raw=true" width="300px" />
 
 ## Prerequisites
 
