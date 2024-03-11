@@ -1,15 +1,11 @@
-# Frog's Leap Ventures - Frontend Technical Interview
+# Frog's Leap Ventures
 
-Welcome to the technical interview project for the lead frontend engineer position at Frog's Leap Ventures. This repository contains a Vue 3 application structured to evaluate your skills in TypeScript, Vue 3, and front-end development best practices.
-
-## Getting Started
-
-To begin working on the interview tasks, please follow these steps:
+![frogs leap ventures logo](https://github.com/allocate-engineering/frogs-leap-ventures/blob/main/src/assets/logo.png?raw=true)
 
 ## Prerequisites
 
-Ensure you have Node.js installed (version 20.x or higher).
-Visual Studio Code with the [Portable Kanban](https://marketplace.visualstudio.com/items?itemName=harehare.portable-kanban) extension installed. This extension will be used to view and manage your tasks during the interview.
+- Ensure you have Node.js installed (version 20.x or higher).
+- Visual Studio Code with the [Portable Kanban](https://marketplace.visualstudio.com/items?itemName=harehare.portable-kanban) extension installed. This extension will be - used to view and manage your tasks during the interview.
 
 ## Project Setup
 
